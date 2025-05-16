@@ -21,8 +21,8 @@ chrome_options.add_argument("--disable-extensions")  # Disabling extensions
 
 
 # Replace these with your actual GUVI credentials
-Email_Address = "surekavj@gmail.com"
-Password = "sureka95"
+Email_Address = "suan@gmail.com"
+Password = "password"
 
 # Setup Chrome options
 options = Options()
@@ -46,12 +46,12 @@ try:
 
     # Step 4: Enter email
     email_input = driver.find_element(By.ID,"email")
-    email_input.send_keys("surekavj@gmail.com")
+    email_input.send_keys("suam@gmail.com")
     time.sleep(2)
 
     # Step 5: Enter password
     password_input = driver.find_element(By.ID,"password")
-    password_input.send_keys("sureka95")
+    password_input.send_keys("psword")
     time.sleep(2)
 
 
