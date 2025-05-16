@@ -44,7 +44,7 @@ def test_submit_button(driver):
     # find password by id
     password_input = driver.find_element(By.ID, "password")
     # send_keys used to type input
-    password_input.send_keys("sureka95")
+    password_input.send_keys("s13445")
     time.sleep(2)# wait a driver for 2 sec
 
 #find submit button using by id
